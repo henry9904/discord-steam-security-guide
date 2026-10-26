@@ -15,7 +15,7 @@ This is an AI-assisted community reference. The author has basic IT and security
 
 ## 바로 사용하기
 
-`index.html`을 열면 한국어, `en.html`을 열면 영어 가이드를 읽을 수 있습니다. 두 페이지 상단에서 언어를 바꿀 수 있습니다. 외부 글꼴·스크립트·분석 도구나 빌드 과정이 필요하지 않습니다. 페이지 내 체크리스트는 저장·전송되지 않으며 현재 페이지를 떠나면 초기화됩니다. JavaScript가 꺼져 있어도 본문·목차·언어 전환·체크리스트를 사용할 수 있습니다.
+`index.html`을 열면 한국어, `en.html`을 열면 영어 가이드를 읽을 수 있습니다. 두 페이지 상단에서 언어를 바꿀 수 있습니다. 외부 글꼴·스크립트·분석 도구나 빌드 과정이 필요하지 않습니다. 따라하기 체크리스트의 체크 표시는 그 브라우저의 localStorage에만 저장되며 어디에도 전송되지 않습니다. 한·영 페이지가 같은 체크 상태를 공유합니다. JavaScript가 꺼져 있어도 본문·목차·언어 전환·체크리스트를 사용할 수 있습니다(이 경우 체크는 저장되지 않습니다).
 
 ## GitHub Pages 배포
 
@@ -33,7 +33,7 @@ This is an AI-assisted community reference. The author has basic IT and security
 - `index.html`: 한국어 본문
 - `en.html`: 같은 구조의 영어 본문
 - `assets/style.css`: 반응형·인쇄 스타일
-- `assets/site.js`: 현재 목차 강조, 언어 전환 시 읽던 섹션 유지
+- `assets/site.js`: 현재 목차 강조, 언어 전환 시 읽던 섹션 유지, 체크리스트 진행률·저장
 - `sources.md`: 출처와 적용 범위
 - `DISCORD_NOTICE.md`: 한·영을 한 번에 올리는 2,000자 미만 공지
 

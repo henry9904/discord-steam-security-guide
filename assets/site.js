@@ -41,4 +41,32 @@
       delete detail.dataset.printWasOpen;
     });
   });
+  // Recovery checklist: progress count and ticks kept in this browser only (shared by both languages).
+  const list = document.querySelector('.followlist');
+  if (list) {
+    const boxes = [...list.querySelectorAll('input[type=checkbox]')];
+    const progress = list.querySelector('.followlist-progress');
+    const reset = list.querySelector('.followlist-reset');
+    const key = 'recovery-checklist';
+    const label = document.documentElement.lang === 'ko'
+      ? n => `${n} / ${boxes.length} 완료`
+      : n => `${n} of ${boxes.length} done`;
+    function save() {
+      try { localStorage.setItem(key, JSON.stringify(boxes.map(box => box.checked))); } catch (e) {}
+    }
+    function update() { progress.textContent = label(boxes.filter(box => box.checked).length); }
+    try {
+      const saved = JSON.parse(localStorage.getItem(key) || '[]');
+      boxes.forEach((box, i) => { box.checked = saved[i] === true; });
+    } catch (e) {}
+    boxes.forEach(box => box.addEventListener('change', () => { save(); update(); }));
+    reset.addEventListener('click', () => {
+      boxes.forEach(box => { box.checked = false; });
+      save();
+      update();
+    });
+    progress.hidden = false;
+    reset.hidden = false;
+    update();
+  }
 })();
