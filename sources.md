@@ -32,6 +32,9 @@ These sources support general guidance, not a diagnosis of a specific incident. 
 - **Microsoft — [Recovery options in Windows](https://support.microsoft.com/en-US/windows/bd88ffdf-1e8e-34a0-d76f-39a71fb4ed4d)**
   - KO: 감염 의심 시 Windows 복구 선택지
   - EN: Windows recovery options for suspected infection
+- **Microsoft — [How malware can infect your PC](https://support.microsoft.com/en-gb/windows/security/how-malware-can-infect-your-pc)**
+  - KO: 메일 첨부 · 소프트웨어 번들·키젠 · 웹 취약점
+  - EN: Email attachments, bundled software/keygens, web vulnerabilities
 - **Microsoft — [Protecting Tokens in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/devices/protecting-tokens-microsoft-entra-id)**
   - KO: 토큰 탈취의 일반 원리; Discord·Steam의 구현 증거는 아님
   - EN: General token-theft principles; not evidence of Discord or Steam implementation

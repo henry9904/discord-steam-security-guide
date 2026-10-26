@@ -4,6 +4,10 @@
 
 A bilingual community guide to account takeover prevention and recovery. It covers attack methods, possible reasons for repeat incidents, prevention, account and device recovery, moderation, and official sources.
 
+이 자료는 AI의 도움을 받아 작성·정리했습니다. 작성자는 IT·보안의 기초 지식이 있지만 보안 전문가는 아닙니다. 설명·번역에 오류나 누락이 있을 수 있으므로 실제 복구 시 최신 공식 안내를 우선 확인하세요. 유입 경로의 예시는 빈도 순위나 특정 사건의 진단이 아닙니다.
+
+This is an AI-assisted community reference. The author has basic IT and security knowledge but is not a security professional. Explanations or translations may contain errors or omissions; prioritize current official guidance when recovering. The entry-route examples are not a frequency ranking or an incident diagnosis.
+
 - [한국어 사이트](https://henry9904.github.io/discord-steam-security-guide/)
 - [English guide](https://henry9904.github.io/discord-steam-security-guide/en.html)
 - [한국어 Discord 공지](DISCORD_NOTICE_KO.md) / [English announcement](DISCORD_NOTICE_EN.md)
