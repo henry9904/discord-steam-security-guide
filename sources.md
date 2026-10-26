@@ -15,8 +15,8 @@ These sources support general guidance, not a diagnosis of a specific incident. 
   - KO: 48시간 복구 링크 · 복구 후 인증 재설정
   - EN: 48-hour recovery link; re-enrolling authentication after recovery
 - **Steam — [Account Security Recommendations](https://help.steampowered.com/en/faqs/view/6639-EB3C-EC79-FF60)**
-  - KO: 인증된 기기 · 전체 로그아웃 · Steam Guard
-  - EN: Authorized Devices, Sign out everywhere, Steam Guard
+  - KO: 인증된 기기 · 전체 로그아웃 · Steam Guard · 악성코드 위장 사례
+  - EN: Authorized Devices, Sign out everywhere, Steam Guard, disguised malware
 - **Steam — [Scam FAQ (Confidence Scams and Trade Scams)](https://help.steampowered.com/en/faqs/view/70E6-991B-233B-A37B)**
   - KO: 친구 계정 사칭 · 공격 목적 · 신고
   - EN: Compromised friends, attacker motives, reporting

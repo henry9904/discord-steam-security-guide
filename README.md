@@ -10,7 +10,7 @@ This is an AI-assisted community reference. The author has basic IT and security
 
 - [한국어 사이트](https://henry9904.github.io/discord-steam-security-guide/)
 - [English guide](https://henry9904.github.io/discord-steam-security-guide/en.html)
-- [한국어 Discord 공지](DISCORD_NOTICE_KO.md) / [English announcement](DISCORD_NOTICE_EN.md)
+- [Discord 공지 (한·영) / Announcement (KO·EN)](DISCORD_NOTICE.md)
 - [공식 출처 / Sources](sources.md)
 
 ## 바로 사용하기
@@ -35,7 +35,7 @@ This is an AI-assisted community reference. The author has basic IT and security
 - `assets/style.css`: 반응형·인쇄 스타일
 - `assets/site.js`: 현재 목차 강조, 언어 전환 시 읽던 섹션 유지
 - `sources.md`: 출처와 적용 범위
-- `DISCORD_NOTICE_KO.md`, `DISCORD_NOTICE_EN.md`: 각각 2,000자 미만 공지
+- `DISCORD_NOTICE.md`: 한·영을 한 번에 올리는 2,000자 미만 공지
 
 내용 수정 시 두 언어의 의미·순서와 공식 자료 확인일을 함께 검토하세요. 관리자 절차는 운영 제안이고, 개별 사건의 원인은 증거 없이는 단정하지 않습니다. 개인 피해 사례, 파일 해시, 개인 기기 경로, 계정 비밀 정보는 포함하지 않았습니다.
 
