@@ -47,7 +47,8 @@
     const boxes = [...list.querySelectorAll('input[type=checkbox]')];
     const progress = list.querySelector('.followlist-progress');
     const reset = list.querySelector('.followlist-reset');
-    const key = 'recovery-checklist';
+    // Bump the key whenever items are added or reordered, so old ticks don't land on the wrong item.
+    const key = 'recovery-checklist-v2';
     const label = document.documentElement.lang === 'ko'
       ? n => `${n} / ${boxes.length} 완료`
       : n => `${n} of ${boxes.length} done`;
